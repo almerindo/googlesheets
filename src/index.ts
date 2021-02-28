@@ -1,5 +1,10 @@
-import s from './error/teste';
+import dotenv from 'dotenv';
+import Sheets from './sheets/Sheets';
+import credentials from './credential/credential.json';
 
-console.log('Boilerplate');
-console.log('Boilerplate');
-s('teste');
+dotenv.config();
+
+const SHEET_ID = process.env.SHEETS_ID as string;
+const sheet = new Sheets(credentials, SHEET_ID);
+
+export default sheet;
