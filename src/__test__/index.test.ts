@@ -26,7 +26,6 @@ describe('GoogleSheets', () => {
 
   it('Should getCount sheet', async () => {
     const total = await sheet.getSheetCount();
-
     expect(total).toBeGreaterThan(0);
   });
 

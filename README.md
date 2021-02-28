@@ -1,4 +1,4 @@
-# Boilerplate
+# Tech
 - Nodejs
 - Typescript
 - eslint
@@ -6,3 +6,5 @@
 - jest
 - semantic-release
 - npm
+- dotenv
+- google-spreadsheet
